@@ -44,6 +44,7 @@ h1 {
 
 h3 {
   color: #504405;
+  padding-left: 15px;
 }
 
 ul {
@@ -65,6 +66,18 @@ nav {
   float: left;
 }
 
+nav ul {
+  padding: 1em 1em 0 0;
+}
+
+nav a {
+  display: block;
+  padding: .5em;
+  background-color: #fff;
+  color: #e5811d;
+  margin: 1em 0;
+}
+
 main {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 0.5em 1em;
@@ -75,6 +88,8 @@ main {
 footer {
   width: 100%;
   clear: both;
+  text-align: center;
+  padding: 1.25em .5em .25em;
 }
 
 
